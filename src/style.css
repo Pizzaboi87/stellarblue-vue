@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CodePro";
+  font-weight: normal;
+  src: url("./font/code-pro.otf") format("opentype");
+}
+
+:root {
+  font-family: "CodePro", sans-serif;
+}
