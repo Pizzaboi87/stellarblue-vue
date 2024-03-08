@@ -15,7 +15,7 @@
         :checked="true"
         :value="country.name"
         @click="hideColumnByCountry(country.name)"
-        class="w-4 h-4 ml-2"
+        class="w-4 h-4 ml-2 mb-1 md:mb-0"
       />
     </div>
 

@@ -17,7 +17,7 @@
           :max="toDate"
           :value="fromDate"
           @change="(event: Event) => { fromDate = (event.target as HTMLInputElement).value }"
-          class="bg-textlight dark:bg-bgdark shadow-inner shadow-black px-5 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
+          class="bg-textlight dark:bg-bgdark shadow-inner shadow-black pl-5 pr-2 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
         />
       </span>
       <span class="flex flex-col">
@@ -34,7 +34,7 @@
           :max="toDate"
           :value="toDate"
           @change="(event: Event) => { toDate = (event.target as HTMLInputElement).value }"
-          class="bg-textlight dark:bg-bgdark shadow-inner shadow-black px-5 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
+          class="bg-textlight dark:bg-bgdark shadow-inner shadow-black pl-5 pr-2 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
         />
       </span>
     </form>
